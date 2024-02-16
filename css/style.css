@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@media screen and (max-width: 368px) {
+    .titulo_container {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .tabela_container {
+        font-size: 10px; 
+        overflow-x: auto;
+    }
+
+    .horario_container img{
+        width: 400px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fbfee5;
+    font-family: "Merriweather", serif;
+}
+
+.titulo_container{
+    color: #25232d;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tabela_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.tabela_container{
+    font-size: 20px;
+}
+
+#horarios{
+    color: #c91842;
+}
+
+#dias{
+    color: #1c8080;
+}
+
+#afazeres{
+    color: #457d97;
+    font-weight: bold;
+}
+
+.horario_container img{
+    display: block; 
+    margin: auto; 
+    width: 860px;
+    margin-bottom: 40px;
+}
